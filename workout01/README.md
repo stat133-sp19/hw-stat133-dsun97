@@ -1,0 +1,1 @@
+#This workout assignment is designed to help us do three things: work with complex file structures logistically, anaylze a bunch of shot data of NBA players, and produce a document from a commnication standpoint
