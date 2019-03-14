@@ -1,7 +1,7 @@
 # Title: Shots script
-# Description: 
-# Input(s):
-# Output(s):
+# Description: display a shot summary for 5 gsw players
+# Input(s): shot data for each player
+# Output(s): summary for each player
 
 
 iguodala <- read.csv("https://raw.githubusercontent.com/ucb-stat133/stat133-hws/master/data/andre-iguodala.csv", stringsAsFactors = FALSE)
@@ -27,14 +27,29 @@ thompson[thompson$shot_made_flag == 'n', 'shot_made_flag'] <- 'shot_no'
 curry[curry$shot_made_flag == 'y','shot_made_flag'] <- 'shot_yes'
 curry[curry$shot_made_flag == 'n', 'shot_made_flag'] <- 'shot_no'
 
-andre-iguodala-summary.txt <- 
-draymond-green-summary.txt <-
-kevin-durant-summary.txt <-
-klay-thompson-summary.txt <-
-stephen-curry-summary.txt <-
-  
-  
+iguodala$minute <- 12*iguodala$period - iguodala$minutes_remaining
+green$minute <- 12*green$period - green$minutes_remaining
+durant$minute <- 12*durant$period - durant$minutes_remaining
+thompson$minute <- 12*thompson$period - thompson$minutes_remaining
+curry$minute <- 12*curry$period - curry$minutes_remaining
 
+a <- summarise(as_tibble(iguodala))
+b <- summarise(as_tibble(green))
+c <- summarise(as_tibble(durant))
+d <- summarise(as_tibble(thompson))
+e <- summarise(as_tibble(curry))
+
+capture.output(a, file = "andre-iguodala-summary.txt") 
+capture.output(b, file = "draymond-green-summary.txt") 
+capture.output(c, file = "kevin-durant-summary.txt") 
+capture.output(d, file = "klay-thompson-summary.txt") 
+capture.output(e, file = "stephen-curry-summary.txt") 
+
+sink(file = "andre-iguodala-summary.txt")
+sink(file = "draymond-green-summary.txt")
+sink(file = "kevin-durant-summary.txt")
+sink(file = "klay-thompson-summary.txt")
+sink(file = "stephen-curry-summary.txt")
 
 
 

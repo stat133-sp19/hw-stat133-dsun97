@@ -1,7 +1,7 @@
-#Title:
-#Description:
-#Inputs:
-#Outputs:
+#Title: Shots Charts
+#Description: shows the shots charts for 5 GSW players
+#Inputs: data from each player for shooting
+#Outputs: a heat map of a player's shooting charts
 
 #scatterplot
 library(tidyverse)

@@ -1,0 +1,90 @@
+# A tibble: 371 x 15
+   team_name game_date season period minutes_remaini…
+   <chr>     <chr>      <int>  <int>            <int>
+ 1 Golden S… 3/24/17     2016      3                2
+ 2 Golden S… 11/3/16     2016      2               10
+ 3 Golden S… 10/25/16    2016      2                0
+ 4 Golden S… 11/3/16     2016      2               11
+ 5 Golden S… 1/8/17      2016      4                0
+ 6 Golden S… 3/16/17     2016      3                5
+ 7 Golden S… 1/2/17      2016      4                7
+ 8 Golden S… 12/7/16     2016      4                9
+ 9 Golden S… 2/28/17     2016      2                0
+10 Golden S… 2/1/17      2016      2                0
+# … with 361 more rows, and 10 more variables:
+#   seconds_remaining <int>, shot_made_flag <chr>,
+#   action_type <chr>, shot_type <chr>,
+#   shot_distance <int>, opponent <chr>, x <int>,
+#   y <int>, name <chr>, minute <dbl>
+# A tibble: 578 x 15
+   team_name game_date season period minutes_remaini…
+   <chr>     <chr>      <int>  <int>            <int>
+ 1 Golden S… 3/5/17      2016      3                7
+ 2 Golden S… 12/30/16    2016      3                7
+ 3 Golden S… 1/16/17     2016      1                9
+ 4 Golden S… 12/7/16     2016      2                0
+ 5 Golden S… 11/19/16    2016      1                8
+ 6 Golden S… 1/22/17     2016      3                9
+ 7 Golden S… 11/4/16     2016      4                6
+ 8 Golden S… 3/16/17     2016      3                1
+ 9 Golden S… 2/4/17      2016      4                0
+10 Golden S… 12/20/16    2016      3                3
+# … with 568 more rows, and 10 more variables:
+#   seconds_remaining <int>, shot_made_flag <chr>,
+#   action_type <chr>, shot_type <chr>,
+#   shot_distance <int>, opponent <chr>, x <int>,
+#   y <int>, name <chr>, minute <dbl>
+# A tibble: 915 x 15
+   team_name game_date season period minutes_remaini…
+   <chr>     <chr>      <int>  <int>            <int>
+ 1 Golden S… 12/23/16    2016      3                9
+ 2 Golden S… 11/18/16    2016      3                8
+ 3 Golden S… 12/5/16     2016      3                9
+ 4 Golden S… 11/4/16     2016      3                5
+ 5 Golden S… 10/30/16    2016      4                1
+ 6 Golden S… 2/8/17      2016      3               10
+ 7 Golden S… 2/23/17     2016      3               11
+ 8 Golden S… 11/13/16    2016      3                5
+ 9 Golden S… 11/19/16    2016      1               10
+10 Golden S… 1/20/17     2016      3                6
+# … with 905 more rows, and 10 more variables:
+#   seconds_remaining <int>, shot_made_flag <chr>,
+#   action_type <chr>, shot_type <chr>,
+#   shot_distance <int>, opponent <chr>, x <int>,
+#   y <int>, name <chr>, minute <dbl>
+# A tibble: 1,220 x 15
+   team_name game_date season period minutes_remaini…
+   <chr>     <chr>      <int>  <int>            <int>
+ 1 Golden S… 11/1/16     2016      1                9
+ 2 Golden S… 2/23/17     2016      4               10
+ 3 Golden S… 2/25/17     2016      3                5
+ 4 Golden S… 3/21/17     2016      4                8
+ 5 Golden S… 11/21/16    2016      2                4
+ 6 Golden S… 12/30/16    2016      4                7
+ 7 Golden S… 11/7/16     2016      4                7
+ 8 Golden S… 12/5/16     2016      2                8
+ 9 Golden S… 11/25/16    2016      4                7
+10 Golden S… 11/13/16    2016      2                8
+# … with 1,210 more rows, and 10 more variables:
+#   seconds_remaining <int>, shot_made_flag <chr>,
+#   action_type <chr>, shot_type <chr>,
+#   shot_distance <int>, opponent <chr>, x <int>,
+#   y <int>, name <chr>, minute <dbl>
+# A tibble: 1,250 x 15
+   team_name game_date season period minutes_remaini…
+   <chr>     <chr>      <int>  <int>            <int>
+ 1 Golden S… 12/15/16    2016      3                3
+ 2 Golden S… 10/28/16    2016      3                9
+ 3 Golden S… 11/1/16     2016      2                5
+ 4 Golden S… 12/1/16     2016      3                5
+ 5 Golden S… 4/4/17      2016      3                2
+ 6 Golden S… 11/19/16    2016      4                5
+ 7 Golden S… 11/21/16    2016      3                9
+ 8 Golden S… 3/29/17     2016      2                1
+ 9 Golden S… 11/25/16    2016      3               10
+10 Golden S… 12/28/16    2016      3                3
+# … with 1,240 more rows, and 10 more variables:
+#   seconds_remaining <int>, shot_made_flag <chr>,
+#   action_type <chr>, shot_type <chr>,
+#   shot_distance <int>, opponent <chr>, x <int>,
+#   y <int>, name <chr>, minute <dbl>
